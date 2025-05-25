@@ -1,6 +1,6 @@
 //number has to be greater than 1 for factorial
 function factorial(x) {
-  if (Number.isNaN(x) || x>=1) {
+  if (Number.isNaN(x)|| x<=1) {
     return 1;
   }
   return x * factorial(x - 1);
